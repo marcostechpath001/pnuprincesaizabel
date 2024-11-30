@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nós</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+/* Cabeçalho */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinha logo à esquerda e título à direita */
+  }
+  
+  header img {
+    max-height: 120px;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    margin-left: 20px;
+    text-align: right;
+  }
+  
+    .about-us {
+      margin: 20px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    .about-us h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .about-us p {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .team {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+
+    .member {
+      text-align: center;
+    }
+
+    .member img {
+      max-height: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .before-after {
+      margin-top: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .image img {
+      max-width: 300px;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+ /* Rodapé */
+ footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer img {
+    margin: 0 10px;
+    max-height: 80px;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./images/Princesa Izabel.png" alt="Logo da Escola" /> <!-- Substitua "logo.png" pelo caminho da logo -->
+    <h1>IZABEL C E PRINC-EF M.</h1>
+  </header>
+
+  <div class="about-us">
+    <h2>Sobre Nós</h2>
+    <p>Conheça mais sobre nossa escola, nossa equipe gestora e a evolução do nosso ambiente escolar.</p>
+
+    <div class="team">
+      <div class="member">
+        <img src="diretora.jpg" alt="Foto da Diretora" /> <!-- Substitua pelo caminho da imagem -->
+        <h3>Diretora</h3>
+        <p>Nome da Diretora</p>
+      </div>
+      <div class="member">
+        <img src="vice-diretor.jpg" alt="Foto do Vice-Diretor" /> <!-- Substitua pelo caminho da imagem -->
+        <h3>Vice-Diretor</h3>
+        <p>Nome do Vice-Diretor</p>
+      </div>
+      <div class="member">
+        <img src="cice-diretora.jpg" alt="Foto da CICE-Diretora" /> <!-- Substitua pelo caminho da imagem -->
+        <h3>CICE-Diretora</h3>
+        <p>Nome da CICE-Diretora</p>
+      </div>
+    </div>
+
+    <div class="before-after">
+      <h2>Antes e Depois da Escola</h2>
+      <p>Veja como a escola evoluiu ao longo dos anos, melhorando sua infraestrutura e ambiente de aprendizado.</p>
+      <div class="gallery">
+        <div class="image">
+          <img src="antes.jpg" alt="Imagem da escola antes" /> <!-- Substitua pelo caminho da imagem -->
+          <p>Antes</p>
+        </div>
+        <div class="image">
+          <img src="depois.jpg" alt="Imagem da escola depois" /> <!-- Substitua pelo caminho da imagem -->
+          <p>Depois</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <img src="./images/Governo Paraná.png" alt="Logo do Governo do Paraná" style="height: 50px; margin-right: 20px;">
+      <img src="./images/pr.gov.br.png" alt="Logo PR.GOV.BR" style="height: 50px;">
+    </div>
+    <p>&copy; 2024 IZABEL C E PRINC-EF M. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
